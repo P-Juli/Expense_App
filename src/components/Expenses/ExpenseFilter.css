@@ -1,0 +1,34 @@
+.expenses-filter {
+    margin: 1rem auto;
+    max-width: 20rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expenses-filter__control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .expenses-filter__control label {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .expenses-filter__control select {
+    font: inherit;
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .expenses-filter__control select:hover,
+  .expenses-filter__control select:focus {
+    outline: none;
+    border-color: #6b6b6b;
+  }
+  

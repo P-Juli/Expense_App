@@ -1,0 +1,18 @@
+.new-expense {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .new-expense__title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* You can further style your ExpenseForm component as needed */
+  
